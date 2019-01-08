@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E040C2C321E23F95009EA1B5 /* Constatnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040C2C221E23F95009EA1B5 /* Constatnts.swift */; };
+		E040C2C521E2DC59009EA1B5 /* StockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E040C2C421E2DC59009EA1B5 /* StockData.swift */; };
 		E05048D521CE06250047BD12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05048D421CE06250047BD12 /* AppDelegate.swift */; };
 		E05048D721CE06250047BD12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05048D621CE06250047BD12 /* ViewController.swift */; };
 		E05048DA21CE06250047BD12 /* HelloCoreData_Mac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E05048D821CE06250047BD12 /* HelloCoreData_Mac.xcdatamodeld */; };
 		E05048DC21CE06250047BD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05048DB21CE06250047BD12 /* Assets.xcassets */; };
 		E05048DF21CE06250047BD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05048DD21CE06250047BD12 /* Main.storyboard */; };
+		E05149F221D07A7B007CC351 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05149F121D07A7B007CC351 /* Person.swift */; };
+		E05149F421D07DE3007CC351 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05149F321D07DE3007CC351 /* Price.swift */; };
+		E0514A5121D663D4007CC351 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0514A5021D663D4007CC351 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E040C2C221E23F95009EA1B5 /* Constatnts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatnts.swift; sourceTree = "<group>"; };
+		E040C2C421E2DC59009EA1B5 /* StockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockData.swift; sourceTree = "<group>"; };
 		E05048D121CE06240047BD12 /* HelloCoreData_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCoreData_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05048D421CE06250047BD12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E05048D621CE06250047BD12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +30,9 @@
 		E05048DE21CE06250047BD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E05048E021CE06250047BD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E05048E121CE06250047BD12 /* HelloCoreData_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloCoreData_Mac.entitlements; sourceTree = "<group>"; };
+		E05149F121D07A7B007CC351 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E05149F321D07DE3007CC351 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		E0514A5021D663D4007CC351 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,11 @@
 				E05048E021CE06250047BD12 /* Info.plist */,
 				E05048E121CE06250047BD12 /* HelloCoreData_Mac.entitlements */,
 				E05048D821CE06250047BD12 /* HelloCoreData_Mac.xcdatamodeld */,
+				E05149F121D07A7B007CC351 /* Person.swift */,
+				E05149F321D07DE3007CC351 /* Price.swift */,
+				E0514A5021D663D4007CC351 /* GraphView.swift */,
+				E040C2C221E23F95009EA1B5 /* Constatnts.swift */,
+				E040C2C421E2DC59009EA1B5 /* StockData.swift */,
 			);
 			path = HelloCoreData_Mac;
 			sourceTree = "<group>";
@@ -136,9 +151,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E040C2C521E2DC59009EA1B5 /* StockData.swift in Sources */,
 				E05048DA21CE06250047BD12 /* HelloCoreData_Mac.xcdatamodeld in Sources */,
 				E05048D721CE06250047BD12 /* ViewController.swift in Sources */,
+				E05149F221D07A7B007CC351 /* Person.swift in Sources */,
+				E05149F421D07DE3007CC351 /* Price.swift in Sources */,
 				E05048D521CE06250047BD12 /* AppDelegate.swift in Sources */,
+				E040C2C321E23F95009EA1B5 /* Constatnts.swift in Sources */,
+				E0514A5121D663D4007CC351 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
